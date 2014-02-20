@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<root>${1:
+    <!--
+        ${2:your comment here}
+    -->}
+    <spec-version>${3:0.0}<spec-version>
+    ${4:<license name="${5:com.name.license}">
+        <title>${6:license_title}</title>
+        <url>${7:http://${8:license_url}}</url>
+    </license>}
+    <package name="${9:package-name}">
+        <title>${10:package_name}</title>
+        ${11:<url>${12:http://${13:package_website}}</url>}
+        ${14:<description>${15:package_description}</description>}
+        ${16:<icon>${17:http://${18:icon_url}}</icon>}
+        ${19:<license>${20:${5}}</license>}
+        ${21:<category>${22:${23:category}/${24:sub-category}}</category>}
+    </package>
+    <version name="${25:0.0}" package="${26:${9:package-name}}" type="${27:type}">
+        <file path="${28:${29:.Npackd}\\${30:Install.bat}}">
+            ${31::: your code here}
+        </file>
+        <url>${32:http://${33:file_url}}</url>
+        ${34:<sha1>${35:sha1_hash}</sha1>}
+        ${36:<dependency package="${37:package-name}" versions="[${38:versions})">${39}</dependency>}
+        ${40:<dependency-msi>\{${41:package_guid}\}</dependency-msi>}
+        ${42:<dependency-file>
+            <path>${43:path_to_file}</path>
+            <sha1>${44:sha1_hash}</sha1>
+        </dependency-file>}
+    </version>
+</root>
+]]></content>
+	<tabTrigger>scaffold:Npackd</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

@@ -1,0 +1,27 @@
+{
+    "scope": "text.xml",
+    "completions": [
+        { "trigger": "npackd:category", "contents": "<category>${1:${2:category}/${3:sub-category}}</category>" },
+        { "trigger": "npackd:depencency-file", "contents": "<depencency-file>\n\t${2:<!-- your depencency-file elements here -->}\n</depencency-file>" },
+        { "trigger": "npackd:dependency-msi", "contents": "<dependency-msi>${1:package_guid}</dependency-msi>" },
+        { "trigger": "npackd:description", "contents": "<description>${1:description}</description>" },
+        { "trigger": "npackd:file", "contents": "<file path=\"${1:file_path}\">\n\t${2::: your code here}\n</file>" },
+        { "trigger": "npackd:file…Install.bat", "contents": "<file path=\".Npackd\\Install.bat\">\n\t${1::: your code here}\n</file>" },
+        { "trigger": "npackd:file…Uninstall.bat", "contents": "<file path=\".Npackd\\Uninstall.bat\">\n\t${1::: your code here}\n</file>" },
+        { "trigger": "npackd:icon", "contents": "<icon>${1:http://${2:icon.png}}</icon>" },
+        { "trigger": "npackd:license", "contents": "<license>${1:license}</license>" },
+        { "trigger": "npackd:license>…</license", "contents": "<license name=\"${1:com.name.license}\">\n\t${2:<!-- your license elements here -->}\n</license>" },
+        { "trigger": "npackd:package", "contents": "<package name=\"${1:package-name}\">\n\t${2:<!-- your package elements here -->}\n</package>" },
+        { "trigger": "npackd:root", "contents": "<root>\n\t${1:<!-- your elements here -->}\n</root>" },
+        { "trigger": "npackd:sha1", "contents": "<sha1>${1:sha1_hash}</sha1>" },
+        { "trigger": "npackd:spec-version", "contents": "<spec-version>${1:0.0}</spec-version>" },
+        { "trigger": "npackd:title", "contents": "<title>${1:title}</title>" },
+        { "trigger": "npackd:url", "contents": "<url>${1:http://${2:url}}</url>" },
+        { "trigger": "npackd:variable", "contents": "<variable>${1:variable}</variable>" },
+        { "trigger": "npackd:version", "contents": "<version name=\"${1:version-name}\" package=\"${2:package-name}\" type=\"${3:type}\">\n\t${4:<!-- your version elements here -->}\n</version>" },
+        { "trigger": "npackd:version…one-file", "contents": "<version name=\"${1:version-name}\" package=\"${2:package-name}\" type=\"one-file\">\n\t${3:<!-- your version elements here -->}\n</version>" },
+        { "trigger": "npackd:version…zip", "contents": "<version name=\"${1:version-name}\" package=\"${2:package-name}\" type=\"zip\">\n\t${3:<!-- your version elements here -->}\n</version>" },
+
+        { "note": "It ain't over 'til the fat lady sings" }
+    ]
+}
