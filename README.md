@@ -26,7 +26,7 @@ By default, SublimeText does not show the completion pop-up when working in the 
 
 ### Completions
 
-All available Npackd XML elements will complete as you press the `Tab` key.
+All available [Npackd XML](https://code.google.com/p/windows-package-manager/wiki/RepositoryFormat) elements are prefixed witj `npackd:` and will complete as you press the `Tab` key. Special elements are available for `npacked:license` and `npacked:url`.
 
 ### Snippets
 
