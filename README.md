@@ -28,6 +28,14 @@ By default, SublimeText does not show the completion pop-up when working in the 
 
 All available [Npackd XML](https://code.google.com/p/windows-package-manager/wiki/RepositoryFormat) elements are prefixed witj `npackd:` and will complete as you press the `Tab` key. Special elements are available for `npacked:license` and `npacked:url`.
 
+Examples:
+
+* `npacked:file…Install.bat` completes to a file element with a path set to *.Npackd\Install.bat*
+
+* `npacked:license>MIT` completes to a license node for the the MIT License
+
+* `npacked:url>GitHub` completes to an URL element for a GitHub project
+
 ### Snippets
 
 You can use `scaffold:Npackd` to scaffold an empty XML file. Use `Tab` to jump between the available fields.
