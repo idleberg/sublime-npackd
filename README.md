@@ -38,7 +38,7 @@ Examples:
 
 ### Snippets
 
-You can use `scaffold:Npackd` to scaffold an empty XML file. Use `Tab` to jump between the available fields.
+You can use `scaffold:Npackd` to scaffold an empty XML file. Use `Tab` to jump between the available fields. The `cheatsheet:Npackd` snippet will display all available commands.
 
 ## License
 
