@@ -1,4 +1,4 @@
-# Npackd for Sublime Text
+# Npackd for Sublime Text [![Build Status](https://secure.travis-ci.org/idleberg/Npackd-Sublime-Text.png)](http://travis-ci.org/idleberg/Npackd-Sublime-Text)
 
 Syntax completions and snippets for creating [Npackd](https://code.google.com/p/windows-package-manager) XML files.
 
