@@ -1,0 +1,10 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<depencency-file>
+	${2:<!-- your depencency-file elements here -->}
+</depencency-file>
+]]></content>
+  <tabTrigger>npackd:depencency-file</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

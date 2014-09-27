@@ -1,0 +1,11 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<license name="org.gnu.LGPLv3">
+	<title>GNU General Lesser Public License Version 3</title>
+	<url>https://www.gnu.org/licenses/lgpl.html</url>
+</license>
+]]></content>
+  <tabTrigger>npackd:license&gt;LGPLv3</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

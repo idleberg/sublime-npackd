@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<sha1>${1:sha1_hash}</sha1>
+]]></content>
+  <tabTrigger>npackd:sha1</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

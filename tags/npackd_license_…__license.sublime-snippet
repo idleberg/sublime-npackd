@@ -1,0 +1,10 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<license name="${1:com.name.license}">
+	${2:<!-- your license elements here -->}
+</license>
+]]></content>
+  <tabTrigger>npackd:license&gt;…&lt;/license</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

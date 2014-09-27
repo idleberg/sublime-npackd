@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<icon>${1:http://${2:icon.png}}</icon>
+]]></content>
+  <tabTrigger>npackd:icon</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

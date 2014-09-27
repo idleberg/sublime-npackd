@@ -1,0 +1,10 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<version name="${1:version-name}" package="${2:package-name}" type="zip">
+	${3:<!-- your version elements here -->}
+</version>
+]]></content>
+  <tabTrigger>npackd:version…zip</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

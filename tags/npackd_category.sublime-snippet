@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<category>${1:${2:category}/${3:sub-category}}</category>
+]]></content>
+  <tabTrigger>npackd:category</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

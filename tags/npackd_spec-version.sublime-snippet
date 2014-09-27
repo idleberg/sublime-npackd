@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<spec-version>${1:0.0}</spec-version>
+]]></content>
+  <tabTrigger>npackd:spec-version</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

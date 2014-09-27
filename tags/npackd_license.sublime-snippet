@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<license>${1:license}</license>
+]]></content>
+  <tabTrigger>npackd:license</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

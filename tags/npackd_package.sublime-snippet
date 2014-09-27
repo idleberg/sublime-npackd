@@ -1,0 +1,10 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<package name="${1:package-name}">
+	${2:<!-- your package elements here -->}
+</package>
+]]></content>
+  <tabTrigger>npackd:package</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

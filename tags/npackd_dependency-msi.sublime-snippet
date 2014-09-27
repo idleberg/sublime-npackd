@@ -1,0 +1,8 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<dependency-msi>${1:package_guid}</dependency-msi>
+]]></content>
+  <tabTrigger>npackd:dependency-msi</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

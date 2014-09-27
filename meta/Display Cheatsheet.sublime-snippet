@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+${1:<!--
+    SNIPPETS
+    ========
+
+    cheatsheet:Npackd
+      scaffold:Npackd
+
+    COMPLETIONS
+    ===========
+
+    npackd:category
+    npackd:depencency-file
+    npackd:dependency-msi
+    npackd:description
+    npackd:file [Install.bat|Uninstall.bat]
+    npackd:icon
+    npackd:license [BSDv2|BSDv3|GPLv2|GPLv3|LGPLv2|LGPLv3|MIT|zlib]
+    npackd:package
+    npackd:root
+    npackd:sha1
+    npackd:spec-version
+    npackd:title
+    npackd:url [Bitbucket|GitHub|Google Code|SourceForge]
+    npackd:variable
+    npackd:version [one-file|zip]
+-->}
+]]></content>
+	<tabTrigger>cheatsheet:Npackd</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

@@ -24,7 +24,7 @@ Syntax completions and snippets for creating [Npackd](https://code.google.com/p/
 
 By default, SublimeText does not show the completion pop-up when working in the text scope, yet the completions still work. To enable the pop-up, add `text.xml` to `auto_complete_selector` in your user settings.
 
-### Completions
+### Snippets
 
 All available [Npackd XML](https://code.google.com/p/windows-package-manager/wiki/RepositoryFormat) elements are prefixed witj `npackd:` and will complete as you press the `Tab` key. Special elements are available for `npacked:license` and `npacked:url`.
 
@@ -36,7 +36,7 @@ Examples:
 
 * `npacked:url>GitHub` completes to an URL element for a GitHub project
 
-### Snippets
+### Scaffolding
 
 You can use `scaffold:Npackd` to scaffold an empty XML file. Use `Tab` to jump between the available fields. The `cheatsheet:Npackd` snippet will display all available commands.
 

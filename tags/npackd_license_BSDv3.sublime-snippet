@@ -1,0 +1,11 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<license name="org.opensource.BSD3ClauseLicense">
+	<title>The BSD 3-Clause License</title>
+	<url>http://opensource.org/licenses/BSD-3-Clause</url>
+</license>
+]]></content>
+  <tabTrigger>npackd:license&gt;BSDv3</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>

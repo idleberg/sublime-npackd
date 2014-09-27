@@ -1,0 +1,11 @@
+<!-- http://github.com/idleberg/sublime-tinkertools -->
+<snippet>
+  <content><![CDATA[
+<license name="org.opensource.ZLibLicense">
+	<title>zlib license</title>
+	<url>http://www.zlib.net/zlib_license.html</url>
+</license>
+]]></content>
+  <tabTrigger>npackd:license&gt;zlib</tabTrigger>
+  <scope>text.xml</scope>
+</snippet>
