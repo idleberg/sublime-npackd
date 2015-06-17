@@ -1,4 +1,8 @@
-# Npackd for Sublime Text [![Build Status](https://secure.travis-ci.org/idleberg/Npackd-Sublime-Text.png)](http://travis-ci.org/idleberg/Npackd-Sublime-Text)
+# Npackd for Sublime Text
+
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/release/idleberg/Npackd-Sublime-Text.svg?style=flat-square)](https://github.com/idleberg/Npackd-Sublime-Text/releases)
+[![Travis](https://img.shields.io/travis/idleberg/Npackd-Sublime-Text.svg?style=flat-square)](https://travis-ci.org/idleberg/Npackd-Sublime-Text)
 
 Sublime Text snippets to create [Npackd](https://code.google.com/p/windows-package-manager) XML files.
 
