@@ -47,7 +47,3 @@ You can use `scaffold:Npackd` to scaffold an empty XML file. Use `Tab` to jump b
 ## License
 
 This work is licensed under the [The MIT License](LICENSE).
-
-## Donate
-
-You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/sublime-npackd) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
